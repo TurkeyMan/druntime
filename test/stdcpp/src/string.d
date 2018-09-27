@@ -2,7 +2,7 @@ module test.stdcpp.string;
 
 import core.stdcpp.string;
 
-extern (C++) int test_string()
+unittest
 {
     std_string str = std_string("Hello");
 
